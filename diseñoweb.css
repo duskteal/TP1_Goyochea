@@ -10,33 +10,50 @@ header{
     background-color: rgba(0, 181, 241, 0.308);
 }
 
+.subrayado{
+    text-decoration: underline;
+}
+
 hr{
     border-color: black;
     height: 2px;
 }
 
 p{
-    font-family: Helvetica;
     color:rgb(0, 35, 35)
 }
 table{
-    font-family: Helvetica;
     text-align: center;
     border-width: 2px;
+    border-color: black;
 }
-
-.cabezales{
+thead{
     background-color: rgba(49, 222, 222, 0.507);
 }
 
-.pilotos{
+
+
+#pilotos{
     text-align: justify;
 }
 
-#link{
+a{
     font-family: Arial;
 }
 
 footer{
     text-align: center;
+}
+
+#hora{
+    background-color: rgba(49, 222, 222, 0.507);
+}
+
+#abierto{
+    background-color: rgb(82, 252, 82);
+    color: rgb(82, 252, 82);;
+}
+#cerrado{
+    background-color: rgb(237, 89, 89);
+    color: rgb(237, 89, 89);
 }
