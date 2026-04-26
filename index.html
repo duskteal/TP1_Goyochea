@@ -3,88 +3,105 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="diseñoweb.css">
         <title>Landing</title>
     </head>
 
-    <body>
+    <body id="index">
         <header>
             <h1>Campeonato Mundial de Formula 1 2005</h1>
             <h2>Un vistazo a un año histórico en la máxima categoría</h2>
         </header>
 
         <nav>
-            <p>10 equipos, 27 pilotos y 19 destinos en el mundo. La edición número 56 del Fédération Internationale de l'Automobile Campeonato Mundial Formula 1 en 2005
-                 fue un campeonato particularmente recordado 
-                por ser el último con el legendario motor V10, su polémico reglamento, el debut de Red Bull Racing y el Gran Premio de Turquía,
-                y sus principales protagonistas: Michael Schumacher y Fernando Alonso.</p>
+            <hr>
+            <pre id="link"> <!-- Cambio de fuente con CSS para links -->
+<a href="receta.html">Una receta de pizza casera imperdible</a>  <a href="horario.html">Horario del Tiro Federal La Rioja</a>
+            </pre> <!-- Uso de <pre> para dar separación de ambos links, y sin uso de target="_blank" en links para navegacion en una pestaña -->
+            <hr>
         </nav>
         
         <main>
             <article>
-                <p>En la edición anterior, continuaba el reinado del máximo campeón de la historia hasta ese momento,
-                    el alemán Michael Schumacher, también conocido como 'El Kaiser' o 'El Barón Rojo', pilotando 
+                <p>10 equipos, 27 pilotos y 19 destinos en el mundo. La edición número 56 del Fédération Internationale de l'Automobile Campeonato Mundial Formula 1 en 2005
+                 fue un campeonato particularmente recordado 
+                por ser el último con el legendario y feroz motor V10, su polémico reglamento, el debut de Red Bull Racing y el Gran Premio de Turquía,
+                y sus principales protagonistas: Michael Schumacher y Fernando Alonso.</p>
+
+                <p>En la edición anterior, continuaba el reinado del máximo campeón de la historia hasta ese momento.
+                    El alemán Michael Schumacher, también conocido como <em>'El Kaiser'</em> o <em>'El Barón Rojo'</em>, pilotando 
                     su icónico Ferrari, dominaba la escena desde hace varias temporadas siendo ganador de tanto el
                     Campeonato de Pilotos como el Campeonato de Constructores con Ferrari. Sin imaginar que una nueva estrella se 
                     asomaba rivalizando la conquista.
                 </p>
+                <!-- Ruta absoluta -->
+                <img src="https://neumaticointermediof1.wordpress.com/wp-content/uploads/2020/05/00.jpg" alt="Presentacion de parilla F1 2005 en Australia" width="800px"/>
                 
-                <span style= text-align:center>
-                    <table border="1px">
-                        <thead>
-                                <tr>
-                                    <th colspan="3">Parilla de Pilotos</th>
-                                </tr>
-                            <tr>
-                                <th>Escudería</th>
-                                <th>Chasis</th>
-                                <th>Pilotos</th>
-                            </tr>
-                        </thead>
+                <table border="1px">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Parilla de Pilotos</th>
+                        </tr>
+                        <tr>
+                            <th>Escudería</th>
+                            <th>Chasis</th>
+                            <th>Pilotos</th>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td>Scuderia Ferrari Marlboro</td> <td>F2004M<br/>F2005</td> <td class="pilotos">Michael Schumacher - Alemania<br/>Rubens Barrichello - Brasil</td>
-                            </tr>
-                            <tr>
-                                <td>Lucky Strike BAR Honda</td> <td>007</td> <td class="pilotos">Jenson Button - Reino Unido<br/>Takuma Satō - Japon<br/>Anthony Davidson - Reino Unido</td>
-                            </tr>
-                            <tr>
-                                <td>Mild Seven Renault F1 Team</td> <td>R25</td> <td class="pilotos">Fernando Alonso - España<br/>Giancarlo Fisichella - Italia</td>
-                            </tr>
-                            <tr>
-                                <td>BMW Williams F1 Team</td> <td>FW27</td> <td class="pilotos">Mark Webber - Australia<br/>Nick Heidfeld - Alemania<br/>Antônio Pizzonia - Brasil</td>
-                            </tr>
+                    <tbody> <!-- class="pilotos" para justificar el texto solo de ese campo de la tabla -->
+                        <tr>
+                            <td>Scuderia Ferrari Marlboro</td> <td>F2004M<br/>F2005</td> <td class="pilotos">Michael Schumacher - Alemania<br/>Rubens Barrichello - Brasil</td>
+                        </tr>
+                        <tr>
+                            <td>Lucky Strike BAR Honda</td> <td>007</td> <td class="pilotos">Jenson Button - Reino Unido<br/>Takuma Satō - Japon<br/>Anthony Davidson - Reino Unido</td>
+                        </tr>
+                        <tr>
+                            <td>Mild Seven Renault F1 Team</td> <td>R25</td> <td class="pilotos">Fernando Alonso - España<br/>Giancarlo Fisichella - Italia</td>
+                        </tr>
+                        <tr>
+                            <td>BMW Williams F1 Team</td> <td>FW27</td> <td class="pilotos">Mark Webber - Australia<br/>Nick Heidfeld - Alemania<br/>Antônio Pizzonia - Brasil</td>
+                        </tr>
+                        <tr>
+                            <td>Team McLaren Mercedes</td> <td>MP4-20</td> <td class="pilotos">Kimi Räikkönen - Finlandia<br/>Juan Pablo Montoya - Colombia<br/>Pedro de la Rosa - España<br/>Alexander Wurz - Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Sauber Petronas</td> <td>C24</td> <td class="pilotos">Jacques Villeneuve - Canadá<br/>Felipe Massa - Brasil</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Red Bull Racing</td> <td>RB1</td> <td class="pilotos">David Coulthard - Reino Unido<br/>Christian Klien - Austria<br/>Vitantonio Liuzzi - Italia</td>
+                        </tr>
+                        <tr>
+                            <td>Panasonic Toyota Racing</td> <td>TF105<br />TF105B</td> <td class="pilotos">Jarno Trulli - Italia<br/>Ralf Schumacher - Alemania<br/>Ricardo Zonta - Brasil</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Jordan Grand Prix</td> <td>EJ15<br/>EJ15B</td> <td class="pilotos">Tiago Monteiro - Portugal<br/>Narain Karthikeyan - India</td>
+                        </tr>
+                        <tr>
+                            <td>Minardo F1 Team</td> <td>PS04B<br/>PS05</td> <td class="pilotos">Patrick Friesacher - Austria<br/>Robert Doornboos - Mónaco<br/>Christijan Albers - Paises Bajos</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                            <tr>
-                                <td>Team McLaren Mercedes</td> <td>MP4-20</td> <td class="pilotos">Kimi Räikkönen - Finlandia<br/>Juan Pablo Montoya - Colombia<br/>Pedro de la Rosa - España<br/>Alexander Wurz - Austria</td>
-                            </tr>
+                <p>Con una temporada llena de emoción, momentos inolvidables y acción rueda contra rueda. El flamante ganador del Campeonato de Pilotos
+                    fue el español <strong>Fernando Alonso</strong>, destronando y poniendo fin a la era del siete veces campeón Michael Schumacher. Demostrando audacia, inteligencia y puro talento,
+                    levantó el título por primera vez en la carrera de Brasil, quedando tercero y asegurando el título en el circuito de Interlagos.
+                </p>
 
-                            <tr>
-                                <td>Sauber Petronas</td> <td>C24</td> <td class="pilotos">Jacques Villeneuve - Canadá<br/>Felipe Massa - Brasil</td>
-                            </tr>
-                            
-                            <tr>
-                                <td>Red Bull Racing</td> <td>RB1</td> <td class="pilotos">David Coulthard - Reino Unido<br/>Christian Klien - Austria<br/>Vitantonio Liuzzi - Italia</td>
-                            </tr>
+                <p>Fue el piloto más jóven en coronarse campeón del mundo hasta ese momento, con 24 años, un mes y 27 días. Y junto a su compañero, Giancarlo Fisichella, lograron a su vez quedarse con el Campeonato de Constructores 
+                    a nombre de Renault.
+                </p>
 
-                            <tr>
-                                <td>Panasonic Toyota Racing</td> <td>TF105<br />TF105B</td> <td class="pilotos">Jarno Trulli - Italia<br/>Ralf Schumacher - Alemania<br/>Ricardo Zonta - Brasil</td>
-                            </tr>
-                            
-                            <tr>
-                                <td>Jordan Grand Prix</td> <td>EJ15<br/>EJ15B</td> <td class="pilotos">Tiago Monteiro - Portugal<br/>Narain Karthikeyan - India</td>
-                            </tr>
-
-                            <tr>
-                                <td>Minardo F1 Team</td> <td>PS04B<br/>PS05</td> <td class="pilotos">Patrick Friesacher - Austria<br/>Robert Doornboos - Mónaco<br/>Christijan Albers - Paises Bajos</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <img src="https://neumaticointermediof1.wordpress.com/wp-content/uploads/2020/05/00.jpg" alt="Presentacion de parilla F1 2005 en Australia" scale="500px"/>
-                </span>
+                <img src="alonso.png" alt="Fernando Alonso y Renault R25" width="80%"/> <!-- Ruta relativa -->
             <article>
         </main>
 
+        <footer>
+            <hr>
+            <p>2026 - Todos los derechos reservados - Sitio creado por <em>duskteal.</em></p>
+        </footer>
 
     </body>
 </html>
