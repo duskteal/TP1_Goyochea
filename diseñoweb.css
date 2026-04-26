@@ -32,6 +32,55 @@ thead{
 }
 
 
+#ferrari{
+    background-color:#DC0100;
+    color: #FFFAEF;
+}
+
+#bar{
+    background-color:#FFFFFF;
+    color:#D7313E;
+}
+
+#renault{
+    background-color:#0190FE;
+    color:#FEF500;
+}
+
+#williams{
+    background-color:#001B57;
+    color:#E2F4F9;
+}
+
+#mclaren{
+    background-color:#BBB6BA;
+    color:#000A2F;
+}
+
+#sauber{
+    background-color:#01007C;
+    color:#009999;
+}
+
+#redbull{
+    background-color:#1E40FE;
+    color:#F3E4FE;
+}
+
+#toyota{
+    background-color:#A90A33;
+    color:#D3B384;
+}
+
+#jordan{
+    background-color:#FEE100;
+    color:#010100;
+}
+
+#minardi{
+    background-color:#010000;
+    color:#F2FAF2;
+}
 
 #pilotos{
     text-align: justify;
