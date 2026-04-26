@@ -1,3 +1,42 @@
-#index{
-    background-color: rgb(129, 169, 169);
+body{
+    background-color: rgb(163, 213, 213);
+    font-family: Helvetica;
+}
+
+header{
+    font-family: Verdana;
+    color:rgb(35, 0, 0);
+    text-align: center;
+    background-color: rgba(0, 181, 241, 0.308);
+}
+
+hr{
+    border-color: black;
+    height: 2px;
+}
+
+p{
+    font-family: Helvetica;
+    color:rgb(0, 35, 35)
+}
+table{
+    font-family: Helvetica;
+    text-align: center;
+    border-width: 2px;
+}
+
+.cabezales{
+    background-color: rgba(49, 222, 222, 0.507);
+}
+
+.pilotos{
+    text-align: justify;
+}
+
+#link{
+    font-family: Arial;
+}
+
+footer{
+    text-align: center;
 }
